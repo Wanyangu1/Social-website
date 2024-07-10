@@ -1,0 +1,40 @@
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Environment variables file
+.env
+
+# Python specific
+*.py[cod]
+*.pyo
+*~
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+var/
+*.log
+*.coverage
+.coverage.*
+.cache
+pip-log.txt
+.tox
+.nox
+.virtualenv
+*.pyd
+.python-version
+celerybeat-schedule
+.pytest_cache
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
