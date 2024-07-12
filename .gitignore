@@ -1,1 +1,106 @@
 .env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.so
+*.mo
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sql
+*.sqlite3
+*.db
+
+# If your project includes Jupyter Notebooks
+.ipynb_checkpoints
+
+# Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Secrets
+*.pem
+*.key
+
+# Node modules (if using a frontend like Vue.js or React)
+node_modules/
+
+# If using Pipenv
+Pipfile.lock
+
+# If using Poetry
+poetry.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Other sensitive files
+*.env
+.env.*
+secret_*.txt
+config/settings/local.py
+
+# Static and media files
+/staticfiles/
+/media/
+
+# Local migrations
+**/migrations/**
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.coverage.*
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Celery
+celerybeat-schedule
+
+# Translations
+*.mo
+*.pot
+
+# Miscellaneous
+*.pkl
+*.log
+*.bak
+*.swp
+*.swo
+*.swn
+*.orig
+*.backup
+*.sass-cache
+*.tmp
+*.temp
+
+# Django specific
+*.orig
+db.sqlite3
+/sessions/
+/static/
+/media/
+/settings.py
